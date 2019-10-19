@@ -1,4 +1,5 @@
 language: java
 jdk: openjdk12 # by default, travis runs on Java 8. This forces Java 12.
-script:
+before_install:
   cd bootcamp
+  
